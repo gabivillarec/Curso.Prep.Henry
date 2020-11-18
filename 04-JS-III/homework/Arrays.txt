@@ -1,0 +1,35 @@
+Arrays o Arreglos : Es una variable que contiene valores o elementos( es una lista de elementos ).
+                    Los arreglos se asignan de la siguiente manera : 
+                    >> Array Ejemplos = [1, 2, 3]
+                    En este caso la Variable "Ejemplos" contiene 3 valores numéricos, y cuando invocamos dicha variable , nos devolvera los 3 valores:
+                    1
+                    2
+                    3
+                    Cada array tiene una longitud, que se cuenta por cada elemento separado por las comas, en el caso de Ejemplos tiene una longitud de 3 elementos
+                    que se enumeran a partir del cero 0, es decir el 1 esta posicionado en 0 , el 2 en 1 y el 3 en 2:
+                    [1, 2, 3]
+                     0, 1, 2
+                     para poder conocer cuantos elementos tiene una variable array podemos utilizar el .length:
+                     >>Ejemplos.length;
+                       3
+
+                    Dentro de una array podemos tener: 'strings', funciones, booleanos, etc.
+
+                    Podemos usar el bucle for o while para mostrar en consola todos o algúnos elementos dentro de este tipo de variables.
+                    >> for (var i=0; i < Ejemplos; i++) {
+                        consol.log (Ejemplos[i]);
+                    }
+                    1
+                    2
+                    3
+
+                    Si queremos agregar un nuevo elemento a la variable Ejemplos , utilizamos .push o .unshitf
+                    .push agrega al final de la lista el elemento que queramos ingresar y .unshit lo agrega al principio es decir en la posición 0.
+
+                    Si queremos eliminar un elemento de la variable Ejemplos , ulitizamos .pop o .shitf
+                    .pop elimina el último elemento de la lista de la variable y .shift elimina el primer elemento de dicha variable , el elemento 0.
+
+
+
+                
+            
