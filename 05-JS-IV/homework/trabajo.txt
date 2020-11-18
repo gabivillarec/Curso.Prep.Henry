@@ -1,0 +1,35 @@
+Objetos: Los objetos son contenedores de datos (como una lista) , estos datos tienen a su vez información que se denominan valores.
+Una variable para que sea un objeto se le deben asiganar muchos datos de la siguiente manera :
+ var objeto = {
+     nombre : gabriel,
+     edad : 28,
+ };  entre los corchete colocamos todos los datos separados por una coma el uno del otro , y para darle un valor a ese dato usamos los 2 puntos (:).
+
+    - Cada dato se lo denomina Propiedad , es decir que son propiedades de un objeto. 
+    - Las propiedades pueden tener diferentes valores , cuando este es una Función , se lo llama Método.
+var objeto2 = {
+    metodo : funcion (){}, 
+}
+
+Bucle for..in : Este bucle for sirve para obtener en pantalla las propiedades de un objeto. Como los objetos no tienen índice numerico como los Array
+                se debe utilizar este tipo de for en vez del bucle estandar :
+             for (var i in objeto){
+                 return objeto[i]
+             }
+             nombre: gabriel
+             edad: 28
+
+          - La variable i toma (in) el valor de cada propiedad o dato del objeto y lo muestra.
+
+ Notación de puntos vs notación de corchetes : la Notación de puntos y de corchetes cumplen la misma función al asignar un objeto o crear una propiedad en uno:
+ objeto.nombre = 'Matias';
+ objeto[nombre] = 'Matias';
+ En ambos casos a la propiedad nombre le asigne 'Matias' (remplazando gabriel).
+ objeto.altura = 1.70m
+ objeto[altura] = 1.70m
+ En este caso creamos una propiedad altura dentro del objeto y le asignamos un valor (1.70m).
+
+
+
+
+          
