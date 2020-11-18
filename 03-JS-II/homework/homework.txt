@@ -1,0 +1,10 @@
+FOR: Es un comando que ejecuta un ciclo, y se detiene dependiendo los parametros que elegimos, avanza mientras sea true y se detiene cuando es false.
+     En 'For' tenemos 3 elementos : una variable, una condición y el incremento de dicha variable: " for (var i=0; i <= 100; i++) " en este ejemplo veremos como 
+    la consola nos va a mostrar (cuando le ordenemos) números del 0 al 100.
+
+&& (AND) : Sirve para comparar 2 elementos, estos se comparan en booleanos (true , false), si ambos elementos son true (1===1 && 2===2) nos devolvera True, si alguno de 
+     ellos es false o ambos , nos devolvera False.
+
+|| (OR) : Al igual que && compara 2 elementos , pero si uno de estos es True y otro False , nos devolvera True , solo es False si ambos son False.
+
+! (NOT) : El valor ! o Not , nos devolvera el valor booleano contrario al que deberia ser ((2 === 2), true) ; ((!(2 === 2)), False). Con ! estamos diciendo que 2 no es igual a 2.
