@@ -1,0 +1,18 @@
+Variable: Una variable es como una "Nueva carpeta" que se la nombra y se crea para "guardar" ciertos "archivos" que en un futuro le daremos utilidad, por ejemplo: llamaremos a una carpeta
+con el nombre de "ImagenesDeGatos" en el cual en ella vamos a seleccionar e ir guardando imágenes en el que salgan gatos. También podemos entenderlo, metafóricamente, como un recipiente en 
+donde podemos almacenar valores, en el cual estos pueden variar durante la ejecución de un programa.
+
+Strings: Cuando a una variable le asignamos un texto entre comillas simples o dobles (ej: "gato" ), este se considera un String.
+
+Funciones: Son objetos que forman parte de JS, estos contienen variables que dependiendo de la función haremos algo con ellas (calcular, sumar, concatenar, etc).
+
+Argumento: los argumentos son variables que se asignan a la funcion y estas se colocan entre paréntesis para que formen parte de la misma, por ejemplo: 
+Function saludo("nombre") {
+    console.log("hola " + nombre);
+}
+en este caso tengo 2 argumentos "hola " y nombre . Cuando en la consola coloque saludo(gariel) esta reconocera la funcion saludo ya creada y me devolvera un mensaje:
+hola gabriel
+ Return: este comando nos permite devolver o mostrar el resultado de una funcion cuando la llamamos (es mas práctica para operaciones numericas).
+
+ If: Este comando se utiliza para devolver o imprimir 2 opciones  distinas de una funcion, estas son True y False (seria en caso: si ocurre tal cosa es Verdadero y sino es Falso). 
+  El true y el false son valores llamados booleanos
