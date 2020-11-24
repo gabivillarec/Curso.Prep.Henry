@@ -1,0 +1,9 @@
+ Un prototipo o prototype es un método de JS el cual forma parte de una “clase” 
+para que podamos usarlo cada vez que lo necesitemos, ejemplo: un array tiene dentro de su clase 
+varios métodos de prototipo que los podemos utilizar como:  .length, .push, .pop, etc.
+ JavaScript nos permite crear un prototipo para que forme parte de una función constructora 
+usando la sintaxis .prototype seguido del nombre del método.
+ Una función constructora (o clases) es como una fábrica en la cual vamos a poder fabricar tantos objetos como queramos, 
+teniendo estos las mismas propiedades, pero pudiendo variar en sus valores. Por ejemplo: tenemos una función constructora de “cajas”,
+en el cual dentro de esta se encuentran propiedades de ‘tamaño’ y ‘material’, 
+podemos crear nuevas cajas (objetos) utilizando esta clase (‘cajas’) diferentes o no en tamaños y materiales.
