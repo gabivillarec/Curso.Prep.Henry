@@ -13,7 +13,11 @@
 * [07 - VI - Callbacks](./07-JS-VI) (3 hs)
 * [08 - HTML](./08-HTML) (3 hs)
 * [09 - CSS](./09-CSS-Positioning) (3 hs)
-* Checkpoint
+* Henry Challenge => [Inscribite acá para rendir](https://airtable.com/shrjhdL2GfsusMZ05)
+
+## Conceptos:
+
+* [Expressions vs Statements](./JS-conceptos/Statements-Expressions/)
 
 ## Proceso de subida de homeworks
 
